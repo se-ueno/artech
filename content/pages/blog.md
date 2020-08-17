@@ -2,8 +2,7 @@
 template: BlogIndex
 slug: blog
 title: Blog
-featuredImage: >-
-  https://ucarecdn.com/6e00810c-f344-45c1-ad7d-627bb9b2e2f4/-/crop/1921x1624/0,0/-/preview/
+featuredImage: 'https://ucarecdn.com/33fc0c25-4478-4d26-824c-746adbfc8f9e/'
 subtitle: デザインの投稿や技術ブログ、日々の気づきなど
 meta:
   description: This is a meta description.
