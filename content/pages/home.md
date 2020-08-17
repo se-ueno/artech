@@ -9,11 +9,9 @@ meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
 ---
-
-
 # About Me
 
-Seiya Ueno
+Seiya
 
 26歳
 
