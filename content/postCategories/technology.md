@@ -2,6 +2,6 @@
 template: BlogIndex
 title: Technology
 subtitle: ''
-featuredImage: 'https://ucarecdn.com/8efb15d6-352b-4118-80bc-0afc4f13b908/'
+featuredImage: 'https://ucarecdn.com/637fa3eb-24d6-4416-b3a3-780604869833/'
 ---
 
