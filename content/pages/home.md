@@ -2,7 +2,8 @@
 template: HomePage
 slug: ''
 title: ArtTecht
-featuredImage: 'https://ucarecdn.com/09338c6e-06c8-4713-a107-db9f1fe64005/'
+featuredImage: >-
+  https://ucarecdn.com/09338c6e-06c8-4713-a107-db9f1fe64005/-/crop/1732x1775/0,405/-/preview/
 subtitle: ArtとTechと時々Comedy
 meta:
   description: This is a meta description.
