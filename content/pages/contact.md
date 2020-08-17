@@ -2,8 +2,8 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: 
+featuredImage: 'https://ucarecdn.com/523a5fe2-f0f0-475b-a5d3-5bf0d22ef055/'
+subtitle: 仕事の依頼などのお問い合わせ
 address: '404 James St, Burleigh Heads QLD 4220'
 phone: 0987 123 456
 email: seiya-ueno@liact.jp
