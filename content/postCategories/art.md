@@ -2,7 +2,6 @@
 template: BlogIndex
 title: Art
 subtitle: ''
-featuredImage: >-
-  https://ucarecdn.com/db0b1431-8739-426f-970d-8a80eacf02ef/-/preview/-/rotate/270/
+featuredImage: 'https://ucarecdn.com/24637082-9522-4768-bada-ac64386b5223/'
 ---
 
