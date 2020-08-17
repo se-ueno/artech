@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import { MapPin, Smartphone, Mail, Twitter } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
@@ -31,7 +31,7 @@ export const ContactPageTemplate = ({
         <div>
           <Content source={body} />
           <div className="Contact--Details">
-            {address && (
+            {/* {address && (
               <a
                 className="Contact--Details--Item"
                 href={`https://www.google.com.au/maps/search/${encodeURI(
@@ -42,17 +42,20 @@ export const ContactPageTemplate = ({
               >
                 <MapPin /> {address}
               </a>
-            )}
-            {phone && (
+            )} */}
+            {/* {phone && (
               <a className="Contact--Details--Item" href={`tel:${phone}`}>
                 <Smartphone /> {phone}
               </a>
-            )}
+            )} */}
             {email && (
               <a className="Contact--Details--Item" href={`mailto:${email}`}>
                 <Mail /> {email}
               </a>
             )}
+              <a className="Contact--Details--Item" href="https://twitter.com/moumoupudding">
+                <Twitter />@moumoupudding
+              </a>
           </div>
         </div>
 
@@ -62,7 +65,7 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
+    {/* <GoogleMap locations={locations} /> */}
   </main>
 )
 

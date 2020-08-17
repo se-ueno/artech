@@ -81,7 +81,7 @@ class Form extends React.Component {
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>名</span>
             </label>
             <label className="Form--Label">
               <input
@@ -91,7 +91,7 @@ class Form extends React.Component {
                 name="lastname"
                 required
               />
-              <span>Lastname</span>
+              <span>姓</span>
             </label>
           </div>
           <fieldset>
@@ -103,7 +103,7 @@ class Form extends React.Component {
                 value="male"
                 defaultChecked
               />
-              <span>Male</span>
+              <span>男性</span>
             </label>
             <label className="Form--Label Form--Radio">
               <input
@@ -112,7 +112,7 @@ class Form extends React.Component {
                 name="gender"
                 value="female"
               />
-              <span>Female</span>
+              <span>女性</span>
             </label>
           </fieldset>
           <label className="Form--Label">
@@ -123,7 +123,7 @@ class Form extends React.Component {
               name="emailAddress"
               required
             />
-            <span>Email address</span>
+            <span>Email</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
@@ -133,11 +133,11 @@ class Form extends React.Component {
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                お問い合わせ内容（概要）
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>仕事の依頼</option>
+              <option>記事の修正依頼</option>
+              <option>その他</option>
             </select>
           </label>
           <label className="Form--Label">
@@ -148,9 +148,9 @@ class Form extends React.Component {
               rows="10"
               required
             />
-            <span>Message</span>
+            <span>お問い合わせ内容</span>
           </label>
-          <label className="Form--Label Form-Checkbox">
+          {/* <label className="Form--Label Form-Checkbox">
             <input
               className="Form--Input Form--Textarea Form--CheckboxInput"
               name="newsletter"
@@ -163,11 +163,11 @@ class Form extends React.Component {
             data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
-          <input type="hidden" name="form-name" value={name} />
+          <input type="hidden" name="form-name" value={name} /> */}
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="送信"
             disabled={this.state.disabled}
           />
         </form>
